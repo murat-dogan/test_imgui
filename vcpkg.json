@@ -1,0 +1,19 @@
+{
+  "name": "cpp-base",
+  "builtin-baseline": "9e8416f15d93fa9347e3291bd8c128dd44200ba5",
+  "dependencies": [
+    {
+      "name": "vcpkg-cmake",
+      "host": true
+    },
+    {
+      "name": "vcpkg-cmake-config",
+      "host": true
+    },
+    {
+      "name": "imgui",
+      "version>=": "1.91.9",
+      "features": ["glfw-binding", "opengl3-binding"]
+    }
+  ]
+}
